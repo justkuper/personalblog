@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script defer src="./assets/javascript/script.js"></script>
-    <script defer src="./assets/javascript/form.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <header class="flex-row">
-        <h2>Header</h2>
-    </header>
-    <main>
-        <form action="">
-            <input type="text">
-            <input type="submit">
-        </form>
-        <section id="blog-posts">
-            <!-- attach loaded posts here. -->
-        </section>
-    </main>
-    <footer>
-        <p>This is by JustKuper</p>
-    </footer>
-</body>
+
+    <title></title>
+  </head>
+  <body>
+    <div id="body-container" class="light">
+    <div class="full-page">
+        <div class="icon-bar">
+            <section>
+                <git button id="theme-toggle" class="sun-emoji">☀️</button>   
+            </section>
+        </div>
+        <div class="top-space"></div>
+        <div class="bottom-section">
+            <div class="container right-border">
+                <section class="sunshine">
+                    <p>My First Blog</p>
+                </section>
+                <img>
+
+            </div>
+            <div class="container left-border">
+                <h1>What's on your mind?</h1>
+                <section class="box">
+                    <form>
+                        <label for="Username">Username</label>
+                        <input type="text" id="username">
+                        <label for="Title">Title</label>
+                        <input type="text" id="title">
+                        <label for="Content">Content</label>
+                        <input type="text" id="content" style="height: scrollHeight + 'px'">
+                    <button type="submit" id="submit-button">Submit</button>
+                </section>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+   <script src="./assets/javascript/script.js"></script>
+  </body>
 </html>
